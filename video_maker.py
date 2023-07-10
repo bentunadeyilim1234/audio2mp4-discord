@@ -17,7 +17,7 @@ def generate(audio_file, text_override=None):
 
     video = video.set_audio(audio)
     
-    path = f"results/{random.randint(000000, 999999)}.mp4"
+    path = f"data/{random.randint(000000, 999999)}.mp4"
     video.write_videofile(path, codec="libx264", audio_codec="aac", fps=1)
     
     return path

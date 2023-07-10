@@ -2,6 +2,9 @@ import video_maker, discord, os
 from dotenv import load_dotenv
 import json
 
+if not os.path.exists("data"):
+    os.mkdir("data")
+
 with open("settings.json", "r", encoding='utf-8', errors='ignore') as f:
     settings = json.load(f)
 
@@ -31,7 +34,7 @@ async def on_message(message: discord.message.Message):
     if filename.endswith(allowedExtensions):
         if requiredRoles and not role_exists:
             return
-        path = "files/{}".format(filename)
+        path = "data/{}".format(filename)
         await message.attachments[0].save(fp=path)
         await reply(path, message)
 
