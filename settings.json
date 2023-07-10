@@ -1,0 +1,5 @@
+{
+    "messageTrigger": null,
+    "allowedRoles": [],
+    "allowedExtensions": [".mp3", ".wav", ".m4a", ".ogg"]
+}

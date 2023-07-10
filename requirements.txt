@@ -1,0 +1,3 @@
+moviepy
+discord.py
+python-dotenv
