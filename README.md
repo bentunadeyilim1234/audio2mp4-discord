@@ -4,3 +4,5 @@ A Discord bot that automatically converts sent audio to video files for mobile u
 # How to Use
 - Create a new file called `.env`
 - Insert a new value called `DISCORD_TOKEN` and insert your bot's token
+
+You can change settings however you want.
