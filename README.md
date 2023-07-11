@@ -1,8 +1,8 @@
-#<p align="center">audio2mp4-discord</p>
+# <p align="center">audio2mp4-discord</p>
 <p align="center">
   <img src="https://github.com/bentunadeyilim1234/audio2mp4-discord/assets/57474461/28114a2a-dd02-4924-8a50-398accab3150" />
 </p>
-### A Discord bot that automatically converts sent audio to video files for mobile users to listen without downloading.
+<p align="center">A Discord bot that automatically converts sent audio to video files for mobile users to listen without downloading.</p>
 <!--![image](https://github.com/bentunadeyilim1234/audio2mp4-discord/assets/57474461/28114a2a-dd02-4924-8a50-398accab3150)!-->
 
 # How to Use
