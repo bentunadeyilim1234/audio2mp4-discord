@@ -18,12 +18,14 @@ client = discord.Client(intents=discord.Intents.all())
 async def reply(audio_file, message: discord.message.Message):
     path = video_maker.generate(audio_file)
     if message:
-       await message.reply(file=discord.File(path))
+        await message.reply(file=discord.File(path))
     os.remove(path)
     os.remove(audio_file)
 
 @client.event
 async def on_message(message: discord.message.Message):
+    if message.author.bot or isinstance(message.channel, discord.channel.DMChannel):
+        return
     if str(message.attachments) == "[]":
         return
     if messageTrigger and (message.content != messageTrigger):
