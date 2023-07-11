@@ -1,5 +1,12 @@
 {
     "messageTrigger": null,
     "allowedRoles": [],
-    "allowedExtensions": [".mp3", ".wav", ".m4a", ".ogg"]
+    "allowedExtensions": [".mp3", ".wav", ".m4a", ".ogg"],
+    "videoSettings": {
+        "backgroundColor": [0, 0, 0],
+        "foreColor": "white",
+        "font": "Arial-Medium",
+        "fontSize": 28,
+        "spacing": [30, 5]
+    }
 }
