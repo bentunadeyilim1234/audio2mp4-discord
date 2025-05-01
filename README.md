@@ -7,7 +7,7 @@
 
 # How to Use
 
-- Create a new using `python3 -m venv env`
+- Create a new enviroment using `python3 -m venv env`
 - Install dependecies using `pip install -r requirements.txt`
 - Create a new file called `.env`
 - Insert a new value with name `DISCORD_TOKEN` and insert your bot's token
